@@ -24,7 +24,7 @@ if (cart.length==0){
 }
 else if (cart.length==1){
   var myItem= cart[0]
-  var name=object.keys(myItem)
+  var name=Object.keys(myItem)
   var price=name
   console.log("In your cart, you have ${name} at $${price}.")
 }
