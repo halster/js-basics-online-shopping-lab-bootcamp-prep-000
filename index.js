@@ -23,9 +23,10 @@ if (cart.length==0){
   console.log("Your shopping cart is empty.")
 }
 else if (cart.length==1){
-  var myItem= Object.keys(cart)
-  var price=cart[0][myItem]
-  console.log("In your cart, you have ${myItem} at $${price}.")
+  var myItem= cart[0]
+  var name=object.keys(myItem)
+  var price=name
+  console.log("In your cart, you have ${name} at $${price}.")
 }
 
 
