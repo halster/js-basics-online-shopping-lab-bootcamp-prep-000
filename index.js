@@ -14,7 +14,7 @@ var itemPrice=Math.ceil(Math.random()*100)
 console.log(itemPrice)
 var itemName= {[item]: itemPrice}
 cart.push(itemName)
-console.log(${item} + " has been added to your cart.")
+console.log(item + " has been added to your cart.")
 return cart // write your code here
 }
 
