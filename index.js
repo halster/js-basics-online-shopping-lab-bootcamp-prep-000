@@ -25,8 +25,10 @@ if (cart.length==0){
 else if (cart.length==1){
   var myItem= Object.keys(cart)
   var price=cart[0][myItem]
-  console.log("In your cart you have ${myItem} at $ ${price}.")
+  console.log("In your cart, you have ${myItem} at $${price}.")
 }
+
+
   // write your code here
 }
 
