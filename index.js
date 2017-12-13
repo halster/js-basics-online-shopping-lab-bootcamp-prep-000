@@ -19,6 +19,9 @@ return cart // write your code here
 }
 
 function viewCart() {
+if (cart.length==0){
+  console.log("Your shopping cart is empty.")
+}
   // write your code here
 }
 
